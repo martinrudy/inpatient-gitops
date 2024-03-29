@@ -7,7 +7,7 @@ spec:
                      # module web komponentu pre tento mikroFE
                      # - umiestnený v namespace wac-hospital
   navigation:
-    - element: mrud-inpatient-wl-list    # element, ktorý bude vložený na stránku
+    - element: mrud-inpatient-wl-app    # element, ktorý bude vložený na stránku
                                     # pri navigácii na zoznam čakajúcich
       path: mrud-inpatient-wl      # cesta, ktora sa zobrazi v address bare v prehliadaci, ked bude tento mikroFE aktívny
       title: Zoznam lozkovych casti mrud      # názov mikro aplikácie
