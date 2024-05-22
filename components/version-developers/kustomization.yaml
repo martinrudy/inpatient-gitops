@@ -1,6 +1,9 @@
 apiVersion: kustomize.config.k8s.io/v1alpha1
 kind: Component
 images:
+- name: rudyni/inpatient-wl-webapi
+  newName: rudyni/inpatient-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: rudyni/ambulance-ufe
   newName: rudyni/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}

@@ -10,3 +10,11 @@ commonLabels:
 
 resources:
 - ../../../apps/mrud-inpatient-ufe
+- ../../../apps/mrud-inpatient-webapi
+
+components:
+- ../../../components/version-developers
+- https://github.com/martinrudy/inpatient-webapi//deployments/kustomize/components/mongodb
+
+patches:
+- path: patches/inpatient-webapi.service.yaml
