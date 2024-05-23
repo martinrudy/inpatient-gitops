@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: rudyni/inpatient-ufe
   newName: rudyni/inpatient-ufe
-  newTag: 1.0.0  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+  newTag: 1.0.1  #aktuálna verzia docker obrazu, ktorú chcete aby používatelia - cvičiaci - videli nasadenú
+- name: rudyni/ambulance-wl-webapi
+  newName: rudyni/ambulance-wl-webapi
+  newTag: 1.0.2
 
 replacements:
  - targets:

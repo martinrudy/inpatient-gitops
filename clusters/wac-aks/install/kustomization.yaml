@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
  - ../../../apps/mrud-inpatient-ufe
+ - ../../../apps/mrud-inpatient-webapi
 
 
 components:
